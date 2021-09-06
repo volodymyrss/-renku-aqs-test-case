@@ -4,6 +4,97 @@
     "@type": [
       "http://schema.org/Collection"
     ],
-    "http://schema.org/hasPart": []
+    "http://schema.org/hasPart": [
+      {
+        "@id": "https://github.com/plans/5c25b47b-3afc-4f38-b42c-f3f7ac2eca74"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/plans/5c25b47b-3afc-4f38-b42c-f3f7ac2eca74",
+    "@type": [
+      "http://schema.org/Action",
+      "http://schema.org/CreativeWork",
+      "http://www.w3.org/ns/prov#Plan"
+    ],
+    "http://schema.org/keywords": [],
+    "http://schema.org/name": [
+      {
+        "@value": "python-example_code-359ce"
+      }
+    ],
+    "https://swissdatasciencecenter.github.io/renku-ontology#command": [
+      {
+        "@value": "python"
+      }
+    ],
+    "https://swissdatasciencecenter.github.io/renku-ontology#hasArguments": [],
+    "https://swissdatasciencecenter.github.io/renku-ontology#hasInputs": [
+      {
+        "@id": "https://github.com/plans/5c25b47b-3afc-4f38-b42c-f3f7ac2eca74/inputs/1"
+      }
+    ],
+    "https://swissdatasciencecenter.github.io/renku-ontology#hasOutputs": [
+      {
+        "@id": "https://github.com/plans/5c25b47b-3afc-4f38-b42c-f3f7ac2eca74/outputs/6721fd2287de4fe6ac94f91bac0e261c"
+      }
+    ],
+    "https://swissdatasciencecenter.github.io/renku-ontology#successCodes": []
+  },
+  {
+    "@id": "https://github.com/plans/5c25b47b-3afc-4f38-b42c-f3f7ac2eca74/inputs/1",
+    "@type": [
+      "http://schema.org/Property",
+      "https://swissdatasciencecenter.github.io/renku-ontology#CommandInput",
+      "https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"
+    ],
+    "http://schema.org/defaultValue": [
+      {
+        "@value": "example_code.py"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "input-1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Command Input 'example_code.py'"
+      }
+    ],
+    "https://swissdatasciencecenter.github.io/renku-ontology#position": [
+      {
+        "@value": 1
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/plans/5c25b47b-3afc-4f38-b42c-f3f7ac2eca74/outputs/6721fd2287de4fe6ac94f91bac0e261c",
+    "@type": [
+      "http://schema.org/Property",
+      "https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput",
+      "https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"
+    ],
+    "http://schema.org/defaultValue": [
+      {
+        "@value": "test-output.txt"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "output-3de0"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Command Output 'test-output.txt'"
+      }
+    ],
+    "https://swissdatasciencecenter.github.io/renku-ontology#createFolder": [
+      {
+        "@value": true
+      }
+    ]
   }
 ]
