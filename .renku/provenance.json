@@ -6,7 +6,7 @@
     ],
     "http://schema.org/hasPart": [
       {
-        "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743"
+        "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5"
       }
     ]
   },
@@ -49,7 +49,7 @@
     ]
   },
   {
-    "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743",
+    "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5",
     "@type": [
       "http://www.w3.org/ns/prov#Activity"
     ],
@@ -61,12 +61,12 @@
     ],
     "http://www.w3.org/ns/prov#qualifiedAssociation": [
       {
-        "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743/association"
+        "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5/association"
       }
     ],
     "http://www.w3.org/ns/prov#qualifiedUsage": [
       {
-        "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743/usages/0c2a83d8-c75d-45d1-9b8a-b293ea6e5ba7"
+        "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5/usages/20eac295-85ab-46e6-9c7a-89ede21138cb"
       }
     ],
     "http://www.w3.org/ns/prov#startedAtTime": [
@@ -90,15 +90,15 @@
     ],
     "https://swissdatasciencecenter.github.io/renku-ontology#parameter": [
       {
-        "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743/parameter-value/2a55c211-4cbb-431c-a45d-1c6938ba0b79"
+        "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5/parameter-value/ad97bd1a-0c52-4976-b916-fefb98c8e0ce"
       },
       {
-        "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743/parameter-value/d5f948c4-f816-4f95-9c6a-0912258e0755"
+        "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5/parameter-value/829a629f-015e-4e3c-81fe-ee753a649db5"
       }
     ]
   },
   {
-    "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743/association",
+    "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5/association",
     "@type": [
       "http://www.w3.org/ns/prov#Association"
     ],
@@ -114,31 +114,18 @@
     ]
   },
   {
-    "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743/generations/5418608d-402f-4b2d-b90c-47529236e70a",
+    "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5/generations/577a601c-cfc3-4a33-8c62-890558f8477b",
     "@type": [
       "http://www.w3.org/ns/prov#Generation"
     ],
     "http://www.w3.org/ns/prov#activity": [
       {
-        "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743"
+        "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5"
       }
     ]
   },
   {
-    "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743/parameter-value/2a55c211-4cbb-431c-a45d-1c6938ba0b79",
-    "@type": [
-      "http://schema.org/PropertyValue",
-      "https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue",
-      "https://swissdatasciencecenter.github.io/renku-ontology#PathParameterValue"
-    ],
-    "http://www.w3.org/ns/prov#atLocation": [
-      {
-        "@value": "example_code.py"
-      }
-    ]
-  },
-  {
-    "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743/parameter-value/d5f948c4-f816-4f95-9c6a-0912258e0755",
+    "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5/parameter-value/829a629f-015e-4e3c-81fe-ee753a649db5",
     "@type": [
       "http://schema.org/PropertyValue",
       "https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue",
@@ -151,7 +138,20 @@
     ]
   },
   {
-    "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743/usages/0c2a83d8-c75d-45d1-9b8a-b293ea6e5ba7",
+    "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5/parameter-value/ad97bd1a-0c52-4976-b916-fefb98c8e0ce",
+    "@type": [
+      "http://schema.org/PropertyValue",
+      "https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue",
+      "https://swissdatasciencecenter.github.io/renku-ontology#PathParameterValue"
+    ],
+    "http://www.w3.org/ns/prov#atLocation": [
+      {
+        "@value": "example_code.py"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5/usages/20eac295-85ab-46e6-9c7a-89ede21138cb",
     "@type": [
       "http://www.w3.org/ns/prov#Usage"
     ],
@@ -201,7 +201,7 @@
     ],
     "http://www.w3.org/ns/prov#qualifiedGeneration": [
       {
-        "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743/generations/5418608d-402f-4b2d-b90c-47529236e70a"
+        "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5/generations/577a601c-cfc3-4a33-8c62-890558f8477b"
       }
     ],
     "https://swissdatasciencecenter.github.io/renku-ontology#checksum": [
@@ -220,7 +220,7 @@
     "http://schema.org/keywords": [],
     "http://schema.org/name": [
       {
-        "@value": "python-example_code-359ce"
+        "@value": "python-example_code-3adc3"
       }
     ],
     "https://swissdatasciencecenter.github.io/renku-ontology#command": [
@@ -260,7 +260,7 @@
     ],
     "http://schema.org/valueReference": [
       {
-        "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743/parameter-value/2a55c211-4cbb-431c-a45d-1c6938ba0b79"
+        "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5/parameter-value/ad97bd1a-0c52-4976-b916-fefb98c8e0ce"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -293,7 +293,7 @@
     ],
     "http://schema.org/valueReference": [
       {
-        "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743/parameter-value/d5f948c4-f816-4f95-9c6a-0912258e0755"
+        "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5/parameter-value/829a629f-015e-4e3c-81fe-ee753a649db5"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -336,7 +336,7 @@
     ],
     "http://www.w3.org/ns/oa#hasTarget": [
       {
-        "@id": "https://github.com/activities/a934ee98-da1e-4c51-85ca-20a34fd9e743"
+        "@id": "https://github.com/activities/75cf218c-0d39-48ac-b5e2-b5827c20d6a5"
       }
     ]
   },
