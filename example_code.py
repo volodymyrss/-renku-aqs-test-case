@@ -5,7 +5,7 @@ import astroquery.legacysurvey
 
 print(astroquery.legacysurvey.LegacySurvey.query_object)
 
-r = astroquery.legacysurvey.LegacySurvey.query_object("nothing")
+r = astroquery.legacysurvey.LegacySurvey.query_object("ActualAstroObject")
 
 print("astroquery returns:", r)
 
